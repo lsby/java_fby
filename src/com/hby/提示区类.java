@@ -13,6 +13,7 @@ import java.util.List;
 class 提示区类 extends JTextArea implements java.awt.event.KeyListener {
 
     public 提示区类() {
+        增加log("本jar所在路径不能有中文!!!");
         增加log("复制class文件,在这里粘贴.");
         增加log("会将反编译的文件生成到桌面");
         增加log("如果有同名文件会覆盖.");
