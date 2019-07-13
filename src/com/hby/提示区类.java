@@ -14,16 +14,16 @@ class 提示区类 extends JTextArea implements java.awt.event.KeyListener {
 
     public 提示区类() {
         增加log("# 如何使用");
-        增加log("复制class文件,在这里粘贴.");
-        增加log("会将反编译的文件生成到桌面");
+        增加log("复制class文件(可以复制多个),在这里粘贴.");
+        增加log("会将反编译的文件生成到桌面.");
         增加log("如果有同名文件会覆盖.");
         增加log("另外这里也可以粘贴文本.");
         增加log("");
         增加log("# 注意事项");
-        增加log("本jar所在路径不能有中文");
+        增加log("本jar所在路径不能有中文.");
         增加log("");
         增加log("# 引用");
-        增加log("使用[jd-core-1.0.5](https://github.com/java-decompiler/jd-core)");
+        增加log("使用[jd-core-1.0.5](https://github.com/java-decompiler/jd-core).");
         增加log("");
         增加log("# 本程序源码");
         增加log("https://github.com/lsby/java-fby");
